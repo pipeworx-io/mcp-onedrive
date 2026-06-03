@@ -2,7 +2,7 @@
 
 OneDrive (Microsoft Graph) MCP Pack
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 711+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 725+ live data sources.
 
 ## Tools
 
@@ -23,7 +23,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 711+ data sources:
+Or connect to the full Pipeworx gateway for access to all 725+ data sources:
 
 ```json
 {
