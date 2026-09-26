@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/onedrive",
   "title": "Onedrive",
   "description": "OneDrive (Microsoft Graph) MCP Pack",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/onedrive",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-onedrive",
