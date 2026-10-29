@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-onedrive",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "OneDrive (Microsoft Graph) MCP Pack",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-onedrive": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "onedrive"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-onedrive.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/onedrive",
   "pipeworx": {
-    "sourceHash": "v1-96dd3d560da38997f012e9361e1638b4e6536c7f81ecf4b21d78630ac9800744",
-    "sourceCommit": "f54ad77e789f27fe393978f9c080b5b18c87bb4f"
+    "mode": "gateway",
+    "slug": "onedrive",
+    "gatewaySlug": "onedrive",
+    "sourceHash": "v1-47f2fa7e4b30cbfa09951caa9c9f0942a7bfe1aea1c49b20ecdf0f8edfd69204",
+    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
   }
 }
