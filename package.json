@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-onedrive",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "OneDrive (Microsoft Graph) MCP Pack",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "onedrive",
     "gatewaySlug": "onedrive",
-    "sourceHash": "v1-47f2fa7e4b30cbfa09951caa9c9f0942a7bfe1aea1c49b20ecdf0f8edfd69204",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-860b7daacf1e162574c1055ecd59aa7ecde5897c2119209e270f68ddfbe3ec38",
+    "sourceCommit": "bed7faa04e7276899b5e3870ef11c98625371f2b"
   }
 }
